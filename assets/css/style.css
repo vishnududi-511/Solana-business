@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+:root {
+    --font-size-12: 12px;
+    --font-size-14: 14px;
+    --font-size-16: 16px;
+    --font-size-18: 18px;
+    --font-size-20: 20px;
+    --font-size-26: 26px;
+    --font-size-36: 36px;
+
+    --font-weight-sm: 400;
+    --font-weight-md: 500;
+    --font-weight-lg: 600;
+    --font-weight-xl: 700;
+    --font-weight-xxl: 800;
+
+    --color-black: black;
+    --color-white: white;
+    --color-1A9-lgblue: #1A9FFF;
+    --form-control-color: rebeccapurple;
+    --color-0099: #00000099;
+    --color-001A: #0000001A;
+    --color-0033: #00000033;
+    --color-0014: #00000014;
+    --color-FAFA: #FAFAFA;
+    --color-red: red;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-space-btw {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.navbar {
+    background-color: #F6E300;
+    /* position: fixed;
+    width: 100%; */
+}
+
+.bg-color {
+    background-color: #F6E300;
+}
+
+.nav-fonts {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-18);
+    font-weight: var(--font-weight-sm);
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-black);
+}
+
+.nav-fonts:hover {
+    color: var(--color-red);
+    /* font-weight: var(--font-weight-lg); */
+}
+
+.connect-wallet {
+    padding: 12px 32px 12px 32px;
+    border-radius: 10px;
+    color: var(--color-red);
+    border: none;
+    font-family: Poppins;
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-md);
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.gap-38 {
+    gap: 38px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.welcome {
+    font-family: Poppins;
+    font-size: var(--font-size-36);
+    font-weight: var(--font-weight-xl);
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+}
