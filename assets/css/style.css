@@ -319,6 +319,7 @@
     color: var(--color-white);
 }
 
+/* timeline */
 .timeline {
     position: relative;
     max-width: 1320px;
@@ -413,7 +414,47 @@
     font-weight: var(--font-weight-sm);
     line-height: 36px;
     letter-spacing: 0em;
+}
 
+/* timeline endd */
+
+/* timeline burgers */
+.timeline-burger-tl1 {
+    left: 18%;
+}
+
+.timeline-burger-tl2 {
+    top: 39%;
+    left: 6%;
+}
+
+.timeline-burger-bl1 {
+    top: 74%;
+    left: 4%;
+}
+
+.timeline-burger-bl2 {
+    top: 54%;
+    left: 25%;
+}
+
+.timeline-burger-tr1 {
+    right: 2%;
+}
+
+.timeline-burger-tr2 {
+    right: 24%;
+    top: 28%;
+}
+
+.timeline-burger-br1 {
+    top: 72%;
+    right: 3%;
+}
+
+.timeline-burger-br2 {
+    top: 72%;
+    right: 28%;
 }
 
 .py-75 {
@@ -429,6 +470,41 @@
     font-size: var(--font-size-48);
     font-weight: var(--font-weight-xl);
     line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.mt-38 {
+    margin-top: 38px;
+}
+
+.py-42 {
+    padding: 42px 0;
+}
+
+.sec-8-heading-font {
+    font-family: Poppins;
+    font-size: var(--font-size-48);
+    font-weight: var(--font-weight-xl);
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.sec-8-font-1 {
+    font-family: Poppins;
+    font-size: var(--font-size-24);
+    font-weight: var(--font-weight-xl);
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.sec-8-font-2 {
+    font-family: Poppins;
+    font-size: var(--font-size-18);
+    font-weight: var(--font-weight-sm);
+    line-height: 32px;
     letter-spacing: 0em;
     text-align: center;
 }
