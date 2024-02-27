@@ -10,15 +10,20 @@
 </head>
 
 <body>
-    <!-- section-1 -->
-    <header class="bg-color">
-        <div class="container">
-            <nav class="navbar">
+    <!-- section-1 {navbar} -->
+    <header class="bg-color position-relative">
+        <nav class="navbar">
+            <div class="container">
                 <div class="d-flex justify-content-space-btw">
                     <div>
                         <img src="./assets/images/logo.png" alt=".">
                     </div>
-                    <div class="d-flex align-items-center gap-38">
+                    <div class="nav-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="d-flex align-items-center gap-38 nav-items">
                         <a href="#">
                             <p class="nav-fonts">Home</p>
                         </a>
@@ -37,8 +42,9 @@
                         <a href="#"><button class="connect-wallet">Connect Wallet</button></a>
                     </div>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
+
     </header>
     <!-- image section {section-2}-->
     <section class="bg-color bg-img ">
@@ -60,17 +66,17 @@
         <div class="container">
             <div class="d-flex flex-direction-col align-items-center">
                 <h2 class="welcome mt-30">WELCOME TO</h2>
-                <div>
+                <div class="z-index-2">
                     <img src="./assets/images/solana-group-img.png" alt="." class="w-100">
                 </div>
             </div>
         </div>
     </section>
     <!-- section-4 -->
-    <section class="bg-color-light-yellow">
+    <section class="bg-color-light-yellow lg-py-50">
         <div class="container">
             <div class="row">
-                <div class="col-7 d-flex flex-direction-col justify-content-center">
+                <div class="col-7 d-flex flex-direction-col justify-content-center lg-col-12">
                     <h2 class="sec-4-font">It was popularised</h2>
                     <p class="sec-4-font-2 mt-48 mb-24">Have you heard? We’re hiring! We have 3,333 working positions to
                         fill on the
@@ -84,8 +90,8 @@
                     </p>
                     <div><button class="discover-more cursor-pointer">DISCOVER MORE</button></div>
                 </div>
-                <div class="col-5">
-                    <img src="./assets/images/sec-4-img-1.png" alt="" class="w-100">
+                <div class="col-5 lg-col-12 lg-pt-20 ">
+                    <img src="./assets/images/sec-4-img-1.png" alt="" class="w-100 h-100">
                 </div>
             </div>
         </div>
@@ -94,40 +100,40 @@
     <section class="bg-color py-114">
         <div class="container">
             <div class="row">
-                <div class="col-3">
+                <div class="col-3 md-col-6 lg-col-4 sm-col-12">
                     <img src="./assets/images/sec-5-img-1.png" alt="." class="w-100 mt-24">
                 </div>
-                <div class="col-3">
+                <div class="col-3 md-col-6 lg-col-4 sm-col-12">
                     <img src="./assets/images/sec-5-img-2.png" alt="." class="w-100 mt-24">
                 </div>
-                <div class="col-3">
+                <div class="col-3 md-col-6 lg-col-4 sm-col-12">
                     <img src="./assets/images/sec-5-img-3.png" alt="." class="w-100 mt-24">
                 </div>
-                <div class="col-3">
+                <div class="col-3 md-col-6 lg-col-4 sm-col-12">
                     <img src="./assets/images/sec-5-img-4.png" alt="." class="w-100 mt-24">
                 </div>
-                <div class="col-3">
+                <div class="col-3 md-col-6 lg-col-4 sm-col-12">
                     <img src="./assets/images/sec-5-img-5.png" alt="." class="w-100 mt-24">
                 </div>
-                <div class="col-3">
+                <div class="col-3 md-col-6 lg-col-4 sm-col-12">
                     <img src="./assets/images/sec-5-img-6.png" alt="." class="w-100 mt-24">
                 </div>
-                <div class="col-3">
+                <div class="col-3 md-col-6 lg-col-4 sm-col-12">
                     <img src="./assets/images/sec-5-img-7.png" alt="." class="w-100 mt-24">
                 </div>
-                <div class="col-3">
+                <div class="col-3 md-col-6 lg-col-4 sm-col-12">
                     <img src="./assets/images/sec-5-img-8.png" alt="." class="w-100 mt-24">
                 </div>
-                <div class="col-3">
+                <div class="col-3 md-col-6 lg-col-4 sm-col-12">
                     <img src="./assets/images/sec-5-img-9.png" alt="." class="w-100 mt-24">
                 </div>
-                <div class="col-3">
+                <div class="col-3 md-col-6 lg-col-4 sm-col-12">
                     <img src="./assets/images/sec-5-img-10.png" alt="." class="w-100 mt-24">
                 </div>
-                <div class="col-3">
+                <div class="col-3 md-col-6 lg-col-4 sm-col-12">
                     <img src="./assets/images/sec-5-img-11.png" alt="." class="w-100 mt-24">
                 </div>
-                <div class="col-3">
+                <div class="col-3 md-col-6 lg-col-4 sm-col-12">
                     <img src="./assets/images/sec-5-img-12.png" alt="." class="w-100 mt-24">
                 </div>
             </div>
@@ -137,20 +143,20 @@
     <section class="bg-color-red py-30">
         <div class="container">
             <h2 class="supplies">Supplies</h2>
-            <div class="d-flex justify-content-space-even mt-31">
-                <div class="text-box">
+            <div class="d-flex justify-content-space-even mt-31 flex-wrap">
+                <div class="text-box d-flex flex-direction-col align-items-center">
                     <h3 class="sec-6-font-1">3,313</h3>
                     <p class="sec-6-font-2">Public Sale</p>
                 </div>
-                <div class="text-box">
+                <div class="text-box d-flex flex-direction-col align-items-center">
                     <h3 class="sec-6-font-1">15</h3>
                     <p class="sec-6-font-2">Community Giveaways</p>
                 </div>
-                <div class="text-box">
+                <div class="text-box d-flex flex-direction-col align-items-center">
                     <h3 class="sec-6-font-1">5</h3>
                     <p class="sec-6-font-2">Marketing / Influencers</p>
                 </div>
-                <div class="text-box">
+                <div class="text-box d-flex flex-direction-col align-items-center">
                     <h3 class="sec-6-font-1">15</h3>
                     <p class="sec-6-font-2">Maximum Supply</p>
                 </div>
@@ -184,22 +190,22 @@
             <img src="./assets/images/timeline-big-burger.png" alt="">
         </div>
 
-        <div class="container ">
+        <div class="container">
             <h2 class="roadmap mb-50">ROADMAP 1.0</h2>
             <div class="timeline">
                 <div class="container-t left">
                     <div class="content">
-                        <h2>Q4 2021</h2>
-                        <p class="timeline-font-2">1. Launch SFFB</p>
+                        <h2 class="timeline-font-1 ">Q4 2021</h2>
+                        <p class="timeline-font-2 mt-10">1. Launch SFFB</p>
                         <p class="timeline-font-2">2. SELL OUT</p>
                         <p class="timeline-font-2">3. Apply for secondary marketplace listings</p>
                     </div>
                 </div>
                 <div class="container-t right">
                     <div class="content">
-                        <h2>Q1
+                        <h2 class="timeline-font-1 ">Q1
                             2022</h2>
-                        <p class="timeline-font-2">1. Charity Giveaway</p>
+                        <p class="timeline-font-2 mt-10">1. Charity Giveaway</p>
                         <p class="timeline-font-2">2. Launch Adopt-A-Penguin Program
                         </p>
                         <p class="timeline-font-2">3. Secure Partnerships</p>
@@ -208,9 +214,9 @@
             </div>
             <div class="container-t left">
                 <div class="content">
-                    <h2>Q2
+                    <h2 class="timeline-font-1 ">Q2
                         2022</h2>
-                    <p class="timeline-font-2">1. SFFB Merch Release
+                    <p class="timeline-font-2 mt-10">1. SFFB Merch Release
                     </p>
                     <p class="timeline-font-2">2. Stay tune for Roadmap 2.0
 
@@ -224,10 +230,10 @@
         <div class="container">
             <h2 class="sec-8-heading-font">Team</h2>
             <div class="row mt-38">
-                <div class="col-3">
+                <div class="sm-col-12 md-col-6 lg-col-4 col-3">
                     <div class="box">
                         <div class="img-box">
-                            <img src="./assets/images/sec-8-img-1.png" alt=".">
+                            <img src="./assets/images/sec-8-img-1.png" alt="." class="w-100">
                         </div>
                         <div class="text-box">
                             <h3 class="sec-8-font-1">Jhone Doe</h3>
@@ -235,10 +241,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="sm-col-12 md-col-6 lg-col-4 col-3">
                     <div class="box">
                         <div class="img-box">
-                            <img src="./assets/images/sec-8-img-2.png" alt=".">
+                            <img src="./assets/images/sec-8-img-2.png" alt="." class="w-100">
                         </div>
                         <div class="text-box">
                             <h3 class="sec-8-font-1">Jhone Doe</h3>
@@ -246,10 +252,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="sm-col-12 md-col-6 lg-col-4 col-3">
                     <div class="box">
                         <div class="img-box">
-                            <img src="./assets/images/sec-8-img-3.png" alt=".">
+                            <img src="./assets/images/sec-8-img-3.png" alt="." class="w-100">
                         </div>
                         <div class="text-box">
                             <h3 class="sec-8-font-1">Jhone Doe</h3>
@@ -257,10 +263,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="sm-col-12 md-col-6 lg-col-4 col-3">
                     <div class="box">
                         <div class="img-box">
-                            <img src="./assets/images/sec-8-img-4.png" alt=".">
+                            <img src="./assets/images/sec-8-img-4.png" alt="." class="w-100">
                         </div>
                         <div class="text-box">
                             <h3 class="sec-8-font-1">Jhone Doe</h3>
@@ -271,6 +277,36 @@
             </div>
         </div>
     </section>
+    <!-- footer -->
+    <footer class="bg-color">
+        <h2 class="faq">FAQ</h2>
+        <div class="d-flex flex-direction-col align-items-center">
+            <div>
+                <img src="./assets/images/footer-img-1.png" alt="." class="w-100">
+            </div>
+            <div class="d-flex gap-40">
+                <a href="https://discord.com/">
+                    <span>
+                        <svg width="72" height="55" viewBox="0 0 72 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M60.4908 4.98396C55.8574 2.85759 50.9683 1.33997 45.9453 0.468922C45.8998 0.461258 45.853 0.467878 45.8115 0.48787C45.7699 0.507863 45.7355 0.540247 45.7131 0.58057C45.0834 1.69705 44.3867 3.1574 43.8999 4.30067C38.4855 3.47898 32.978 3.47898 27.5636 4.30067C27.0206 3.02708 26.4063 1.78508 25.7237 0.58057C25.7007 0.540689 25.6663 0.508678 25.6248 0.488749C25.5834 0.468821 25.5369 0.461909 25.4914 0.468922C20.4673 1.33531 15.5771 2.85372 10.946 4.98396C10.9063 4.99908 10.8732 5.02749 10.8522 5.06434C1.58989 18.9042 -0.951217 32.4046 0.294772 45.7354C0.299238 45.7979 0.339431 45.8604 0.388556 45.9006C5.78214 49.8959 11.815 52.9463 18.2299 54.9218C18.2752 54.936 18.3238 54.9355 18.3688 54.9203C18.4138 54.905 18.4527 54.8758 18.48 54.8369C19.8555 52.9612 21.0791 50.9828 22.1331 48.9017C22.155 48.8588 22.1626 48.81 22.1545 48.7625C22.1465 48.7151 22.1233 48.6715 22.0884 48.6382C22.0653 48.6164 22.0379 48.5997 22.008 48.5891C20.0839 47.8496 18.2205 46.9612 16.4346 45.9319C16.3847 45.9036 16.3476 45.8572 16.331 45.8024C16.3143 45.7475 16.3194 45.6883 16.3452 45.6371C16.3604 45.6039 16.3834 45.5748 16.4122 45.5523C16.7874 45.2709 17.1625 44.9762 17.5198 44.6814C17.5513 44.656 17.5892 44.6397 17.6293 44.6342C17.6695 44.6287 17.7103 44.6342 17.7475 44.6502C29.4438 49.9914 42.1046 49.9914 53.6579 44.6502C53.6965 44.6335 53.7389 44.6275 53.7806 44.633C53.8223 44.6386 53.8617 44.6553 53.8946 44.6814C54.2519 44.9762 54.627 45.2709 55.0022 45.5523C55.0326 45.5745 55.057 45.6039 55.0732 45.6379C55.0895 45.6718 55.0971 45.7093 55.0953 45.7469C55.0935 45.7845 55.0825 45.8211 55.0631 45.8534C55.0437 45.8856 55.0166 45.9126 54.9843 45.9319C53.2025 46.9706 51.3366 47.858 49.4064 48.5846C49.3756 48.5958 49.3476 48.6136 49.3245 48.6367C49.3013 48.6599 49.2835 48.6878 49.2724 48.7186C49.2621 48.7484 49.2579 48.7801 49.2602 48.8115C49.2625 48.843 49.2712 48.8737 49.2858 48.9017C50.3576 50.9784 51.5857 52.9612 52.9344 54.8369C52.9617 54.8758 53.0006 54.905 53.0456 54.9203C53.0906 54.9355 53.1392 54.936 53.1845 54.9218C59.6101 52.9524 65.6528 49.9016 71.0526 45.9006C71.0797 45.8819 71.1022 45.8573 71.1184 45.8287C71.1346 45.8001 71.1442 45.7682 71.1464 45.7354C72.638 30.3235 68.65 16.9347 60.5801 5.06881C60.5719 5.04921 60.5598 5.03153 60.5444 5.01692C60.529 5.0023 60.5107 4.99107 60.4908 4.98396ZM23.8792 37.6164C20.3556 37.6164 17.4573 34.383 17.4573 30.4173C17.4573 26.4471 20.302 23.2138 23.8792 23.2138C27.4832 23.2138 30.3548 26.4739 30.3012 30.4173C30.3012 34.383 27.4564 37.6164 23.8792 37.6164ZM47.62 37.6164C44.1009 37.6164 41.198 34.383 41.198 30.4173C41.198 26.4471 44.0428 23.2138 47.62 23.2138C51.224 23.2138 54.1 26.4739 54.042 30.4173C54.042 34.383 51.224 37.6164 47.62 37.6164Z"
+                                fill="#FF0000" />
+                        </svg>
+                    </span></a>
+                <a href="https://twitter.com/?lang=en">
+                    <span>
+                        <svg width="68" height="56" viewBox="0 0 68 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M67.8463 6.69848C65.3603 7.80007 62.6897 8.54439 59.8821 8.88082C62.779 7.14743 64.9463 4.41928 65.9796 1.20541C63.2579 2.82204 60.2791 3.95997 57.1728 4.56973C55.0839 2.33935 52.3171 0.86102 49.3019 0.364256C46.2867 -0.132509 43.1918 0.380087 40.4978 1.82246C37.8038 3.26483 35.6614 5.55629 34.4031 8.34105C33.1448 11.1258 32.8412 14.2481 33.5392 17.2231C28.0244 16.9462 22.6294 15.5128 17.7044 13.016C12.7794 10.5191 8.43439 7.01455 4.95145 2.72978C3.76054 4.78409 3.07577 7.16591 3.07577 9.70255C3.07444 11.9861 3.63679 14.2347 4.71291 16.2488C5.78903 18.2629 7.34566 19.9802 9.24468 21.2484C7.04232 21.1783 4.88855 20.5832 2.96264 19.5127V19.6913C2.96241 22.8941 4.07028 25.9983 6.09825 28.4772C8.12622 30.9562 10.9494 32.6571 14.0887 33.2915C12.0456 33.8444 9.90366 33.9258 7.82452 33.5297C8.71025 36.2855 10.4356 38.6953 12.759 40.4218C15.0823 42.1483 17.8875 43.1051 20.7816 43.1582C15.8686 47.015 9.8011 49.107 3.55511 49.0978C2.4487 49.0981 1.34323 49.0335 0.244385 48.9043C6.58442 52.9807 13.9647 55.1441 21.5021 55.1357C47.0173 55.1357 60.9659 34.003 60.9659 15.675C60.9659 15.0795 60.951 14.4781 60.9242 13.8826C63.6373 11.9205 65.9793 9.49085 67.8404 6.70741L67.8463 6.69848Z"
+                                fill="#FF0000" />
+                        </svg>
+
+                    </span></a>
+            </div>
+            <p class="copyright mt-25">@Copyright 2021</p>
+        </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
