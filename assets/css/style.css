@@ -37,6 +37,7 @@
     --font-size-20: 20px;
     --font-size-26: 26px;
     --font-size-24: 24px;
+    --font-size-30: 30px;
     --font-size-34: 34px;
     --font-size-36: 36px;
     --font-size-48: 48px;
@@ -150,6 +151,14 @@
 
 .gap-38 {
     gap: 38px;
+}
+
+.overflow-x-auto {
+    overflow-x: auto;
+}
+
+.w-200 {
+    min-width: 220px;
 }
 
 .w-100 {
@@ -287,7 +296,7 @@
 
 .supplies {
     font-family: var(--ff-poppins);
-    font-size: var(--font-size-48);
+    font-size: var(--font-size-30);
     font-weight: var(--font-weight-xl);
     line-height: 72px;
     letter-spacing: 0em;
@@ -297,13 +306,12 @@
 
 .sec-6-font-1 {
     font-family: var(--ff-poppins);
-    font-size: var(--font-size-48);
+    font-size: var(--font-size-30);
     font-weight: var(--font-weight-xl);
     line-height: 72px;
     letter-spacing: 0em;
     text-align: center;
     color: var(--color-white);
-
 }
 
 .py-30 {
@@ -316,7 +324,7 @@
 
 .sec-6-font-2 {
     font-family: var(--ff-poppins);
-    font-size: var(--font-size-18);
+    font-size: var(--font-size-14);
     font-weight: var(--font-weight-sm);
     line-height: 32px;
     letter-spacing: 0em;
@@ -597,7 +605,7 @@
     /* Make sure all circles are at the same spot */
     .left::after,
     .right::after {
-        left: 15px;
+        left: 18px;
     }
 
     /* Make all right containers behave like the left ones */
@@ -608,20 +616,20 @@
 
 @media (max-width:1200px) {
     .nav-menu {
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 34px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         position: absolute;
-        right: 2%;
+        right: 4%;
         transform: translateY(-50%);
         top: 50%;
         z-index: 4;
     }
 
     .nav-menu span {
-        height: 5px;
+        height: 7px;
         width: 100%;
         background-color: var(--color-white);
         border-radius: 3px;
@@ -697,6 +705,18 @@
         padding-left: 12px;
     }
 
+    .sec-6-font-1 {
+        font-size: var(--font-size-36);
+    }
+
+    .sec-6-font-2 {
+        font-size: var(--font-size-14);
+    }
+
+    .supplies {
+        font-size: var(--font-size-36);
+    }
+
     .footer-logo {
         width: 350px;
     }
@@ -747,6 +767,18 @@
         font-size: var(--font-size-24);
         font-weight: var(--font-weight-sm);
         letter-spacing: 0em;
+    }
+
+    .sec-6-font-1 {
+        font-size: var(--font-size-48);
+    }
+
+    .sec-6-font-2 {
+        font-size: var(--font-size-16);
+    }
+
+    .supplies {
+        font-size: var(--font-size-48);
     }
 }
 
