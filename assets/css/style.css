@@ -595,6 +595,7 @@
     padding: 23px 30px;
     margin-bottom: 10px;
 
+
 }
 
 .label {
@@ -604,6 +605,7 @@
     line-height: 27px;
     letter-spacing: 0em;
     text-align: left;
+    cursor: pointer;
 
 }
 
@@ -626,6 +628,10 @@
 
 .social-links {
     margin-top: 26px;
+}
+
+.arrow {
+    transform: rotate(180deg);
 }
 
 .py-40 {
