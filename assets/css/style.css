@@ -7,6 +7,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    transition: all 300ms linear !important;
 }
 
 .container {
@@ -119,7 +120,7 @@
 .nav-fonts {
     font-family: var(--ff-poppins);
     font-size: var(--font-size-18);
-    font-weight: var(--font-weight-lg);
+    font-weight: var(--font-weight-sm);
     line-height: 32px;
     letter-spacing: 0em;
     text-align: left;
@@ -174,7 +175,8 @@
 }
 
 .py-114 {
-    padding: 114px 0;
+    padding-top: 114px;
+    padding-bottom: 114px;
 }
 
 .welcome {
@@ -315,7 +317,8 @@
 }
 
 .py-30 {
-    padding: 30px 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .mt-31 {
@@ -362,9 +365,9 @@
 .container-t::after {
     content: '';
     position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -13px;
+    Width: 36.03px;
+    Height: 36.03px;
+    right: -18px;
     background-color: var(--color-white);
     top: 15px;
     border-radius: 50%;
@@ -411,7 +414,7 @@
 
 /* Fix the circle for containers on the right side */
 .right::after {
-    left: -13px;
+    left: -18px;
 }
 
 /* The actual content */
@@ -484,7 +487,8 @@
 }
 
 .py-75 {
-    padding: 75px 0;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 .mb-50 {
@@ -509,7 +513,8 @@
 }
 
 .py-42 {
-    padding: 42px 0;
+    padding-top: 42px;
+    padding-bottom: 42px;
 }
 
 .sec-8-heading-font {
@@ -577,6 +582,59 @@
 
 .footer-logo {
     width: 265px;
+    margin-top: 20px;
+}
+
+.acc-content {
+    display: none;
+    transition: max-height 1s ease;
+}
+
+.a-container {
+    background-color: var(--color-yellow-FFF03);
+    padding: 23px 30px;
+    margin-bottom: 10px;
+
+}
+
+.label {
+    font-family: Poppins;
+    font-size: var(--font-size-14);
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.acc-content {
+    font-family: Poppins;
+    font-size: var(--font-size-14);
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 70%;
+    color: var(--color-black);
+    background-color: var(--color-yellow-FFF03);
+    margin-top: 20px;
+}
+
+.width-change {
+    max-width: 800px;
+}
+
+.social-links {
+    margin-top: 26px;
+}
+
+.py-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.faq {
+    padding-bottom: 20px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -605,7 +663,7 @@
     /* Make sure all circles are at the same spot */
     .left::after,
     .right::after {
-        left: 18px;
+        left: 13px;
     }
 
     /* Make all right containers behave like the left ones */
@@ -663,7 +721,8 @@
     }
 
     .lg-py-50 {
-        padding: 50px 0;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .lg-pt-20 {
@@ -685,12 +744,22 @@
 
 @media (max-width:576px) {
     .sm-py-40 {
-        padding: 40px 0 !important;
+        padding-top: 40px 0 !important;
+        padding-bottom: 40px !important;
+    }
+
+    .sm-py-30 {
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
     .sec-4-font {
         font-size: var(--font-size-34);
         line-height: unset;
+    }
+
+    .mt-48 {
+        margin-top: 20px !important;
     }
 
     .pt-74 {
@@ -719,6 +788,7 @@
 
     .footer-logo {
         width: 350px;
+        margin-top: 40px;
     }
 
     .md-d-unset {
@@ -735,11 +805,25 @@
         font-weight: var(--font-weight-sm);
         letter-spacing: 0em;
     }
+
+    .arrow {
+        margin-left: 203px;
+    }
+
+    .label {
+        font-size: var(--font-size-18);
+    }
+
+    .acc-content {
+
+        font-size: var(--font-size-18);
+    }
 }
 
 @media (max-width:768px) {
     .md-py-70 {
-        padding: 70px 0;
+        padding-top: 70px;
+        padding-bottom: 70px;
     }
 
     .pt-74 {
