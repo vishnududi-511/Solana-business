@@ -643,6 +643,12 @@
     padding-bottom: 20px;
 }
 
+.col-12 {
+    width: 100%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media (max-width: 600px) {
 
@@ -720,11 +726,6 @@
 }
 
 @media (max-width:992px) {
-    .lg-col-12 {
-        width: 100%;
-        padding-right: 12px;
-        padding-left: 12px;
-    }
 
     .lg-py-50 {
         padding-top: 50px;
@@ -789,7 +790,7 @@
 }
 
 @media (min-width:576px) {
-    .md-col-6 {
+    .sm-col-6 {
         width: 50%;
         padding-right: 12px;
         padding-left: 12px;
@@ -842,7 +843,7 @@
 }
 
 @media (min-width:768px) {
-    .lg-col-4 {
+    .md-col-4 {
         width: 33.33%;
         padding-right: 12px;
         padding-left: 12px;
@@ -877,19 +878,19 @@
 }
 
 @media (min-width:992px) {
-    .xl-col-7 {
+    .lg-col-7 {
         width: 58.33%;
         padding-left: 12px;
         padding-right: 12px;
     }
 
-    .xl-col-5 {
+    .lg-col-5 {
         width: 41.66%;
         padding-left: 12px;
         padding-right: 12px;
     }
 
-    .xl-col-3 {
+    .lg-col-3 {
         width: 25%;
         padding-left: 12px;
         padding-right: 12px;
